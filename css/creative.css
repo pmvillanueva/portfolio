@@ -158,33 +158,33 @@ aside {
     color: #595f58;
   }
 }
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+/*header {*/
+  /*position: relative;*/
+  /*width: 100%;*/
+  /*min-height: auto;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-position: center;*/
+  /*background-image: url('../images/pv_living_room.JPG');*/
+  /*text-align: center;*/
+/*}*/
+
+.parallax {
+  background-image: url("../images/pv_living_room.jpg");
+  min-height: 960px;
+  background-attachment: fixed;
   background-position: center;
-  background-image: url('../images/pv_living_room.JPG');
-  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/*.parallax {*/
-  /*background-image: url("../images/pv_living_room.jpg");*/
-  /*min-height: 960px;*/
-  /*background-attachment: fixed;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-/*}*/
-
-/*@media only screen and (max-device-width: 940px) {*/
-  /*.parallax {*/
-    /*background-attachment: scroll;*/
-  /*}*/
-/*}*/
+@media only screen and (max-device-width: 940px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 header .header-content {
   display: block;
@@ -214,10 +214,10 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
+/*@media (min-width: 768px) {*/
+  /*header {*/
+    /*min-height: 100%;*/
+  /*}*/
 
   header .header-content {
     position: absolute;
