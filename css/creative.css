@@ -161,7 +161,7 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -172,8 +172,13 @@ header {
 }
 
 /*.parallax {*/
+  /*!* The image used *!*/
   /*background-image: url("../images/pv_living_room.jpg");*/
+
+  /*!* Set a specific height *!*/
   /*min-height: 960px;*/
+
+  /*!* Create the parallax scrolling effect *!*/
   /*background-attachment: fixed;*/
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
@@ -214,10 +219,10 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
+/*@media (min-width: 768px) {*/
+  /*header {*/
+    /*min-height: 100%;*/
+  /*}*/
 
   header .header-content {
     position: absolute;
