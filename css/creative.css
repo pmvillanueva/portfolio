@@ -8,7 +8,7 @@ body {
   font-weight: 100;
 }
 hr {
-  border-color: #595f58;
+  border-color: #ecc215;
   border-width: 1px;
   max-width: 400px;
 }
@@ -167,7 +167,6 @@ aside {
   /*background-size: cover;*/
   /*-o-background-size: cover;*/
   /*background-position: center;*/
-  /*!*background-image: url('../img/header.jpg');*!*/
   /*background-image: url('../images/pv_living_room.JPG');*/
   /*text-align: center;*/
 /*}*/
@@ -193,6 +192,7 @@ aside {
 /*}*/
 
 header .header-content {
+  display: block;
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
@@ -219,10 +219,10 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
+/*@media (min-width: 768px) {*/
+  /*header {*/
+    /*min-height: 100%;*/
+  /*}*/
 
   header .header-content {
     position: absolute;
@@ -249,7 +249,7 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
-}
+
 
 .section-heading {
   margin-top: 0;
@@ -493,8 +493,6 @@ body {
 }
 
 
-
-
 footer {
   background-color: #30363d;
   color: #ffffff;
@@ -530,16 +528,15 @@ svg {
 .btn-social {
   font-size: 25px;
   color: #ffffff;
-
 }
 
-.email-form {
-  /*position: absolute;*/
-  left: 0;
-  right: 0;
-  box-shadow: none;
-  text-align: center;
-}
+/*.email-form {*/
+  /*!*position: absolute;*!*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*box-shadow: none;*/
+  /*text-align: center;*/
+/*}*/
 
 .form-control {
   border-radius: 0;
@@ -585,4 +582,3 @@ svg {
   text-align: center;
   padding: 90px 0;
 }
-
