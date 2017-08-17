@@ -172,24 +172,19 @@ aside {
 /*}*/
 
 .parallax {
-  /* The image used */
   background-image: url("../images/pv_living_room.jpg");
-
-  /* Set a specific height */
   min-height: 960px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/*@media only screen and (max-device-width: 940px) {*/
-  /*.parallax {*/
-    /*background-attachment: scroll;*/
-  /*}*/
-/*}*/
+@media only screen and (max-device-width: 940px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 header .header-content {
   display: block;
